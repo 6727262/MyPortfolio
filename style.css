@@ -1,0 +1,250 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #8000FF, #00FFFF);    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    border-radius:10px ;
+}
+.aska{
+    background: #000;
+}
+.skill p{
+
+outline: auto wheat;
+width: max-content;
+
+}
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #2e2b1d; /* Unique color for logo */
+}
+.aaa{
+    color: #3A3D45;
+}
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-item {
+    padding: 15px;
+    background-color: #4A90E2;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.project-item:hover {
+    background-color: #357ABD;
+}
+
+.project-details {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header{
+    display: flex;
+    gap: 200px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.mm{
+    display: flex;
+    flex-direction: column;
+    height:700px;
+background: linear-gradient(to right, black, brown);    color: white;
+align-items: center;
+}
+.ss{
+    display: flex;
+    flex-direction: column;
+    height:600px;
+background: linear-gradient(to right, black, brown);    color: white;
+align-items: center;}
+.aa{
+    font-size:25px;
+    font-family:sans-serif;
+    font-size: 20px;
+    background: linear-gradient(to right, black, brown);    color: white;
+     
+
+}
+.imga{
+    display: flex;
+    width: 120px;
+}
+#oo
+{
+    height: 200px;
+    width: 150px;
+    border-radius: 10%;
+
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+gap: 10px;
+}
+.rr{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #ff6a00, #ee0979);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;   
+}
+#pp{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #ff6a00, #ee0979);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+.qq{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #ff6a00, #ee0979);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+a{
+    text-decoration: none;
+    color: #4A90E2;
+
+}
+.q {
+    transition: transform 0.5s ease, color 0.5s ease;
+    cursor: pointer; /* Change cursor to pointer on hover */}
+
+.q.transformed {
+    transform: translate(50px); /* Move down by 50 pixels */
+    color: yellow; /* Change color on transformation */}
+.qq:hover{
+    background: #333;
+}
+#pp:hover{
+    background: #333
+}
+.skills h2{
+    width: 100%;
+    text-align: center;
+    color: #ffcc00;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+.skills{
+    background: linear-gradient(to bottom, #FAD0C4, #FDCB82, #D4A5A5, #3A3D45);
+}
+ul li{
+    list-style: none;
+}
+.aa{
+    height: 350px;
+    /* color: white;
+    background: #000000; */
+    display: flex;
+    ;
+
+}
+.main{
+width: 50%;
+}
+.main-2{
+width: 50%;
+    height: 200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 350px;
+    border: none;
+    border-radius:20px ;
+    background: wheat;
+    width: 80%;
+    box-shadow: 5px 3px 5px 5px   red;
+
+}
+form input{
+    padding: 15px 20px;
+    width: 70%;
+    margin: 10px;
+    margin-top:10px ;
+    margin-left: 30px;
+    border: none;
+    border-radius: 10px;
+
+    
+
+}
+#bb{
+    font-weight: bold;
+    padding:10px 20px;
+    margin-left: 10px;
+    color: #000;
+
+}
+.bt{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left:     150px;
+    background: red;
+    border: none;
+    color: #000000;
+    border-radius: 10px ;
+}
+.ac{
+    margin-left: 
+    20px;
+    font-size: 25px;
+}
+footer p{
+    color: grey;
+}

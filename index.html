@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="imga"><img
+        id="oo"
+        src="./WhatsApp Image 2024-12-22 at 11.23.37_26bc60a1.jpg"
+        alt=""
+      /></div>
+
+     <div class="jai"> <div class="logo kk">Mohammed Arkam Nasir Khan</div>
+     <h1 class="kk">My Portfolio</h1>
+
+     <nav>
+       <ul>
+         <li>
+           <button id="pp"><a href="#skills">Skills</a></button>
+         </li>
+         <li>
+           <button class="qq"><a href="#projects">Projects</a></button>
+         </li>
+         <li>
+           <button class="rr"><a href="#contact">Contact Here</a></button>
+         </li>
+       </ul>
+     </nav></div>
+    </header>
+
+    <section id="skills" class="skills">
+      <h2 class="aska">Skills</h2>
+      <div class="skill-set">
+        <div class="skill">
+          <h3>HTML</h3>
+          <p>
+            Proficient in creating structured and accessible web pages using
+            HTML5.
+          </p>
+        </div>
+        <div class="skill">
+          <h3>CSS</h3>
+          <p>
+            Skilled in styling web pages with CSS3, including responsive design
+            techniques.
+          </p>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <p>
+            Familiar with JavaScript for adding interactivity and dynamic
+            features to websites.
+          </p>
+        </div>
+        <div class="skill">
+          <h3>Node.js</h3>
+          <p>
+            Basic knowledge of Node.js for building server-side applications and
+            APIs.
+          </p>
+        </div>
+        <div class="skill">
+          <h3>React</h3>
+          <p>
+            Introductory experience with React for building dynamic user
+            interfaces.
+          </p>
+        </div>
+        <div class="skill">
+          <h3>MongoDB</h3>
+          <p>
+            Understanding of MongoDB for managing and storing data in a NoSQL
+            database.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div
+          class="project-item"
+          onclick="showProjectDetails('parkingSoftware')"
+        >
+          Parking Software
+        </div>
+        <div class="project-item" onclick="showProjectDetails('sqlSales')">
+          SQL-Based Sales Project
+        </div>
+      </div>
+      <div id="project-details" class="project-details"></div>
+    </section>
+    <h1 class="ac contact" id="contact">Contact Me</h1>
+
+    <section class="aa">
+      <div class="main">
+        <h3 class="q"  id="transformText"   >Get in Touch</h3>
+      </div>
+      <div class="main-2">
+        <form
+          action="
+        " id="ff"
+        >
+        <h1 id="bb">contact me</h1>
+        <input type="text" name="Name:" placeholder="Enter Your Name" required>
+        <input type="email" name="email:" placeholder="Enter Email" required>
+        <input type="text" placeholder="Enter Your Message" name="Messages:">
+        <button class="bt" type="submit">Submit</button>
+    </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>Contact: 8452991255 | Email: arkamkhan228@gmail.com.com</p>
+      <p>© 2024 Arkam Khan. All rights reserved</p>
+    </footer>
+
+    <script>
+      function showAlert(message) {
+        alert(message);
+      }
+    </script>
+    <script src="./app.js"></script>
+  </body>
+</html>
